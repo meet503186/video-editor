@@ -1,0 +1,20 @@
+.merge-clear-all-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #ff36004d;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+.clear-all-btn,
+.merge-all-btn {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  margin-right: 30px;
+}
+
+.clear-all-btn:hover,
+.merge-all-btn:hover {
+  background-color: #398439;
+}

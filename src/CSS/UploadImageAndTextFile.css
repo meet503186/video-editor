@@ -1,0 +1,83 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1px solid #ff36004d;
+  padding: 30px;
+  padding-bottom: 30px;
+  margin: 30px 0;
+  border-radius: 10px;
+}
+
+.preview-image {
+  border: 0.1px solid #ff36004d;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview-image > img {
+  height: 100px;
+  width: 100px;
+}
+
+.upload-data {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.preview-video {
+  border: 0.1px solid #ff36004d;
+  padding: 25px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.preview-video > img {
+  height: 50px;
+  width: 50px;
+}
+
+button {
+  appearance: none;
+  outline: none;
+  background-color: #337ab7;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 4px;
+  border: 1px solid #2e6da4;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #286090;
+}
+
+.add-more-image-btn {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.add-more-image-btn:hover {
+  background-color: #398439;
+}

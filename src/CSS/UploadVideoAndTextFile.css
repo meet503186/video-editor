@@ -1,0 +1,71 @@
+.container1 {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px solid #ff36004d;
+    padding: 30px;
+    padding-bottom: 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+  }
+  
+  .preview-vid1 {
+    border: 0.1px solid #ff36004d;
+    padding: 25px;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  
+  .preview-vid1 > img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .upload-data1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+  
+  .preview-video1 {
+    border: 0.1px solid #ff36004d;
+    padding: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+  
+  .preview-video1 > img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  button {
+    appearance: none;
+    outline: none;
+    background-color: #337ab7;
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 4px;
+    border: 1px solid #2e6da4;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #286090;
+  }
+  
+  .add-more-video-btn1 {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+  }
+  
+  .add-more-video-btn1:hover {
+    background-color: #398439;
+  }
+  
